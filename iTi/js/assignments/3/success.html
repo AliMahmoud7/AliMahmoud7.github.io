@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Success</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1 style="font-weight: bold;" id="welcome-p">
+        Welcome
+    </h1>
+    <script>
+        let url = location.href;
+        const username = url.split('?')[1].split('&')[0].split('=')[1];
+        document.getElementById('welcome-p').innerHTML += username;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+title: Ali Mahmoud
+author: Ali Mahmoud
+email: ali.mahmoud@engineer.com
+# description: Software Engineer
+github:
+  is_project_page: false
+btn-github: false
+downloads: false
+# twitter_username: alimahmoud7eg
+# github_username: alimahmoud7

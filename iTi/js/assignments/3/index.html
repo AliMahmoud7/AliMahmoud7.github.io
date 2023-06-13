@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS: Assignment 3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        button {
+            display: block;
+            padding: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        a {
+            display: inline-block;
+            padding: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="task1-p"></p>
+
+    <button id="task1-btn" type="button">Task 1: Start clock</button>
+    <a id="task2-open">Task 2: Open link</a>
+    <a id="task2-close">Task 2: Close link</a>
+    <form action="success.html" method="get" style="margin-bottom: 20px;">
+        <fieldset>
+            <legend>Task 3</legend>
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" placeholder="Enter your user name here" required>
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </fieldset>
+    </form>
+    <a href="scroll-page.html" target="_blank">Task 4</a>
+    <button id="task5-btn" type="button">Task 5</button>
+
+    <form style="margin-bottom: 20px;">
+        <fieldset>
+            <legend>Bonus 1</legend>
+            <div>
+                <input type="text" id="text-input" name="text-input" placeholder="Accepts letters only" pattern="[A-Za-z]{1,}" required>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+    <button id="bonus2-btn" type="button">Bonus 2: Countdown</button>
+    <p id="bonus2-p">
+        Will graduate after: 
+    </p>
+    <a href="https://www.google.com/" id="bonus3-btn">Bonus 3: Test the unload</a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
